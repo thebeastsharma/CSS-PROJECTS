@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    background: linear-gradient(to right, #ff070b, #cb4acb);
+    font-family: 'Arial', sans-serif;
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-button{
+    padding: 10px 20px;
+    background-color: rgb(95, 95, 213);
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

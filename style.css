@@ -2,61 +2,66 @@ body{
     background-color: black;
     background: linear-gradient(to right, #0440a9, #cb4acb);
     font-family: 'Arial', sans-serif;
-    margin: 0; 
-    padding: 0;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
+    /* height: 100vh; */
+    /* display: flex;
+    flex-direction: row;
+    flex:wrap; */
+   
+    margin :10px;
+    /* justify-content: center;
+    align-items: center; */
+    
 
 }
-.box{
-    background-color: black;
-    background: linear-gradient(to left, #0440a9, #cb4acb);
-    border-radius: 12px;
-    padding: 20px;
-    width: 500px;
-    height: 300px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+.container{
+    height: 100vh;
     display: flex;
-    flex-direction: column; 
+    flex-direction: row;
+    flex:wrap;
+    gap:20px;
+    justify-content: center;
     align-items: center;
 }
-img{
-    width: 60px;
-    height: 60px;
-    background-color: rgba(247, 244, 244, 0.5);
-    margin-bottom: 20px;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    width: 80%;
-}
-input{
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    background-color: white;
-    color: black;
-}
-h1{
-    font-family: 'Times New Roman', Times, serif;
-}
-button{
-    padding: 10px;
-    background-color: black;
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;}
+    .logo{
+        width:50x;
+        height:50px;
+        margin-right: 5px;
+
+    }
+  #btn{
+    padding: 20px;
+    background-color:rgb(95, 95, 213) ;
     color: white;
-    border: none;
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-button:hover{
-    background-color: rgb(38, 37, 37);
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .custom-button{
+    padding: 10px 20px;
+    background-color: rgb(95, 95, 213);
     color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
